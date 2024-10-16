@@ -7,11 +7,11 @@ namespace Lab6
         static void Main(string[] args)
         {
             // Skapar instanser av djuren
-            Lion lion = new Lion();
-            Dog dog = new Dog(true, false, 4, "Chicken & Rice", "Dog", "Chihuahua");
-            SiberianHusky husky = new SiberianHusky(true, false, 4, "Hotdogs", "Dog", "Siberian Husky", 10);
-            Bulldog bulldog = new Bulldog(true, false, 4, "Donuts", "Dog", "Bulldog", 7);
-            Cat cat = new Cat();
+            Lion lion = new();
+            Dog dog = new(true, false, 4, "Chicken & Rice", "Dog", "Chihuahua");
+            SiberianHusky husky = new(true, false, 4, "Hotdogs", "Dog", "Siberian Husky", 10);
+            Bulldog bulldog = new(true, false, 4, "Donuts", "Dog", "Bulldog", 7);
+            Cat cat = new();
 
             // Skapar en array av djuren
             Animal[] animals = [lion, dog, husky, bulldog, cat];
