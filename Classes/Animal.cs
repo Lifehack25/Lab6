@@ -11,7 +11,7 @@ namespace Lab6.Classes
         public bool HaveFur = haveFur;
         public bool IsPredator = isPredator;
         public int AmountOfLegs = amountOfLegs;
-        public string FoodCunsumption = foodCunsumption;
+        public string MainFoodCunsumption = foodCunsumption;
         public string TypeOfAnimal = typeOfAnimal;
         public abstract void MakeSound();
 
